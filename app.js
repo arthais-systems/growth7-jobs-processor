@@ -1,16 +1,18 @@
-const express = require('express');
-const bodyParser = require('body-parser');
-const routes = require('./routes'); // Importe o arquivo de rotas corretamente
+const express = require("express");
+const bodyParser = require("body-parser");
+const routes = require("./src/routes/routes");
 
 const app = express();
 const port = process.env.PORT || 3000;
 
-// Middleware para processar dados JSON
+// Middleware to process JSON data
 app.use(bodyParser.json());
 
-// Rota para receber e processar o JSON
-app.use('/processar-json', routes); // Use o middleware de rotas corretamente
+// Route for receiving and processing the JSON
+app.use("/process-json", routes);
 
-app.listen(port, () => {
-  console.log(`Servidor rodando na porta ${port}`);
-});
+if (process.env.NODE_ENV !== "test") {
+  app.listen(port, () => {
+    console.log(`Server running on port ${port}`);
+  });
+}

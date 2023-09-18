@@ -1,234 +1,214 @@
 [
     [
-        {
-            "id": 5,
-            "description": "Análise de dados de transações para melhoria da experiência do usuário.",
-            "maxDateOfConclusion": "2023-10-01 12:00:00",
-            "estimatedTime": 4
-        },
-        {
-            "id": 6,
-            "description": "Integração de pagamentos em dispositivos vestíveis (wearables).",
-            "maxDateOfConclusion": "2023-10-01 12:00:00",
-            "estimatedTime": 2
-        }
+      {
+        "id": 5,
+        "description": "Análise de dados de transações para melhoria da experiência do usuário.",
+        "maxDateOfConclusion": "2023-10-01 12:00:00",
+        "estimatedTime": 4
+      },
+      {
+        "id": 26,
+        "description": "Desenvolvimento de soluções de pagamento para comércio eletrônico.",
+        "maxDateOfConclusion": "2023-10-01 12:00:00",
+        "estimatedTime": 4
+      }
     ],
     [
-        {
-            "id": 26,
-            "description": "Desenvolvimento de soluções de pagamento para comércio eletrônico.",
-            "maxDateOfConclusion": "2023-10-01 12:00:00",
-            "estimatedTime": 4
-        }
+      {
+        "id": 29,
+        "description": "Pesquisa e desenvolvimento de novas tecnologias de pagamento.",
+        "maxDateOfConclusion": "2023-10-01 12:00:00",
+        "estimatedTime": 8
+      }
     ],
     [
-        {
-            "id": 29,
-            "description": "Pesquisa e desenvolvimento de novas tecnologias de pagamento.",
-            "maxDateOfConclusion": "2023-10-01 12:00:00",
-            "estimatedTime": 8
-        }
+      {
+        "id": 16,
+        "description": "Suporte técnico para problemas de pagamento.",
+        "maxDateOfConclusion": "2023-10-04 12:00:00",
+        "estimatedTime": 4
+      }
     ],
     [
-        {
-            "id": 8,
-            "description": "Suporte técnico para estabelecimentos comerciais que utilizam sistemas de pagamento.",
-            "maxDateOfConclusion": "2023-10-04 12:00:00",
-            "estimatedTime": 8
-        }
+      {
+        "id": 8,
+        "description": "Suporte técnico para estabelecimentos comerciais que utilizam sistemas de pagamento.",
+        "maxDateOfConclusion": "2023-10-04 12:00:00",
+        "estimatedTime": 8
+      }
     ],
     [
-        {
-            "id": 16,
-            "description": "Suporte técnico para problemas de pagamento.",
-            "maxDateOfConclusion": "2023-10-04 12:00:00",
-            "estimatedTime": 4
-        }
+      {
+        "id": 13,
+        "description": "Desenvolvimento de soluções de processamento de pagamentos.",
+        "maxDateOfConclusion": "2023-10-06 12:00:00",
+        "estimatedTime": 2
+      },
+      {
+        "id": 23,
+        "description": "Desenvolvimento de carteiras digitais.",
+        "maxDateOfConclusion": "2023-10-06 12:00:00",
+        "estimatedTime": 4
+      }
     ],
     [
-        {
-            "id": 10,
-            "description": "Pesquisa de mercado para identificar novas oportunidades na indústria de pagamentos.",
-            "maxDateOfConclusion": "2023-10-06 12:00:00",
-            "estimatedTime": 6
-        },
-        {
-            "id": 13,
-            "description": "Desenvolvimento de soluções de processamento de pagamentos.",
-            "maxDateOfConclusion": "2023-10-06 12:00:00",
-            "estimatedTime": 2
-        }
+      {
+        "id": 10,
+        "description": "Pesquisa de mercado para identificar novas oportunidades na indústria de pagamentos.",
+        "maxDateOfConclusion": "2023-10-06 12:00:00",
+        "estimatedTime": 6
+      }
     ],
     [
-        {
-            "id": 23,
-            "description": "Desenvolvimento de carteiras digitais.",
-            "maxDateOfConclusion": "2023-10-06 12:00:00",
-            "estimatedTime": 4
-        }
+      {
+        "id": 1,
+        "description": "Desenvolvimento de soluções de pagamento por reconhecimento facial.",
+        "maxDateOfConclusion": "2023-10-07 12:00:00",
+        "estimatedTime": 8
+      }
     ],
     [
-        {
-            "id": 1,
-            "description": "Desenvolvimento de soluções de pagamento por reconhecimento facial.",
-            "maxDateOfConclusion": "2023-10-07 12:00:00",
-            "estimatedTime": 8
-        }
+      {
+        "id": 20,
+        "description": "Implementação de soluções de pagamento por biometria.",
+        "maxDateOfConclusion": "2023-10-11 12:00:00",
+        "estimatedTime": 2
+      },
+      {
+        "id": 18,
+        "description": "Análise de dados de transações para prevenção de fraudes.",
+        "maxDateOfConclusion": "2023-10-11 12:00:00",
+        "estimatedTime": 3
+      },
+      {
+        "id": 7,
+        "description": "Desenvolvimento de soluções de pagamento em criptomoedas.",
+        "maxDateOfConclusion": "2023-10-11 12:00:00",
+        "estimatedTime": 3
+      }
     ],
     [
-        {
-            "id": 20,
-            "description": "Implementação de soluções de pagamento por biometria.",
-            "maxDateOfConclusion": "2023-10-10 12:00:00",
-            "estimatedTime": 2
-        }
+      {
+        "id": 11,
+        "description": "Desenvolvimento de aplicativos de pagamento móvel.",
+        "maxDateOfConclusion": "2023-10-14 12:00:00",
+        "estimatedTime": 3
+      },
+      {
+        "id": 28,
+        "description": "Desenvolvimento de soluções de pagamento para dispositivos IoT (Internet das Coisas).",
+        "maxDateOfConclusion": "2023-10-14 12:00:00",
+        "estimatedTime": 3
+      }
     ],
     [
-        {
-            "id": 7,
-            "description": "Desenvolvimento de soluções de pagamento em criptomoedas.",
-            "maxDateOfConclusion": "2023-10-11 12:00:00",
-            "estimatedTime": 3
-        }
+      {
+        "id": 27,
+        "description": "Treinamento de equipes para uso de sistemas de pagamento.",
+        "maxDateOfConclusion": "2023-10-16 12:00:00",
+        "estimatedTime": 2
+      },
+      {
+        "id": 2,
+        "description": "Testes de usabilidade em aplicativos de pagamento.",
+        "maxDateOfConclusion": "2023-10-16 12:00:00",
+        "estimatedTime": 4
+      }
     ],
     [
-        {
-            "id": 18,
-            "description": "Análise de dados de transações para prevenção de fraudes.",
-            "maxDateOfConclusion": "2023-10-12 12:00:00",
-            "estimatedTime": 3
-        }
+      {
+        "id": 19,
+        "description": "Desenvolvimento de soluções de pagamento por NFC (Near Field Communication).",
+        "maxDateOfConclusion": "2023-10-16 12:00:00",
+        "estimatedTime": 4
+      }
     ],
     [
-        {
-            "id": 11,
-            "description": "Desenvolvimento de aplicativos de pagamento móvel.",
-            "maxDateOfConclusion": "2023-10-14 12:00:00",
-            "estimatedTime": 3
-        },
-        {
-            "id": 28,
-            "description": "Desenvolvimento de soluções de pagamento para dispositivos IoT (Internet das Coisas).",
-            "maxDateOfConclusion": "2023-10-14 12:00:00",
-            "estimatedTime": 3
-        }
+      {
+        "id": 25,
+        "description": "Manutenção e atualização de terminais de pagamento.",
+        "maxDateOfConclusion": "2023-10-18 12:00:00",
+        "estimatedTime": 3
+      },
+      {
+        "id": 4,
+        "description": "Desenvolvimento de sistemas de pagamento em tempo real.",
+        "maxDateOfConclusion": "2023-10-18 12:00:00",
+        "estimatedTime": 3
+      }
     ],
     [
-        {
-            "id": 2,
-            "description": "Testes de usabilidade em aplicativos de pagamento.",
-            "maxDateOfConclusion": "2023-10-16 12:00:00",
-            "estimatedTime": 4
-        },
-        {
-            "id": 19,
-            "description": "Desenvolvimento de soluções de pagamento por NFC (Near Field Communication).",
-            "maxDateOfConclusion": "2023-10-16 12:00:00",
-            "estimatedTime": 4
-        }
+      {
+        "id": 15,
+        "description": "Manutenção de infraestrutura de servidores de pagamento.",
+        "maxDateOfConclusion": "2023-10-20 12:00:00",
+        "estimatedTime": 1
+      },
+      {
+        "id": 6,
+        "description": "Integração de pagamentos em dispositivos vestíveis (wearables).",
+        "maxDateOfConclusion": "2023-10-20 12:00:00",
+        "estimatedTime": 2
+      },
+      {
+        "id": 21,
+        "description": "Desenvolvimento de sistemas de pagamento recorrente.",
+        "maxDateOfConclusion": "2023-10-20 12:00:00",
+        "estimatedTime": 3
+      }
     ],
     [
-        {
-            "id": 25,
-            "description": "Manutenção e atualização de terminais de pagamento.",
-            "maxDateOfConclusion": "2023-10-17 12:00:00",
-            "estimatedTime": 3
-        }
+      {
+        "id": 30,
+        "description": "Desenvolvimento de soluções de pagamento multicanal (online, mobile, lojas físicas).",
+        "maxDateOfConclusion": "2023-10-20 12:00:00",
+        "estimatedTime": 4
+      },
+      {
+        "id": 9,
+        "description": "Desenvolvimento de soluções de pagamento offline.",
+        "maxDateOfConclusion": "2023-10-20 12:00:00",
+        "estimatedTime": 4
+      }
     ],
     [
-        {
-            "id": 4,
-            "description": "Desenvolvimento de sistemas de pagamento em tempo real.",
-            "maxDateOfConclusion": "2023-10-18 12:00:00",
-            "estimatedTime": 3
-        }
+      {
+        "id": 14,
+        "description": "Testes de segurança em sistemas de pagamento.",
+        "maxDateOfConclusion": "2023-10-25 12:00:00",
+        "estimatedTime": 3
+      },
+      {
+        "id": 3,
+        "description": "Implementação de soluções de pagamento por código QR.",
+        "maxDateOfConclusion": "2023-10-25 12:00:00",
+        "estimatedTime": 4
+      }
     ],
     [
-        {
-            "id": 15,
-            "description": "Manutenção de infraestrutura de servidores de pagamento.",
-            "maxDateOfConclusion": "2023-10-19 12:00:00",
-            "estimatedTime": 8
-        }
-    ],
-    [
-        {
-            "id": 9,
-            "description": "Desenvolvimento de soluções de pagamento offline.",
-            "maxDateOfConclusion": "2023-10-20 12:00:00",
-            "estimatedTime": 4
-        }
-    ],
-    [
-        {
-            "id": 27,
-            "description": "Treinamento de equipes para uso de sistemas de pagamento.",
-            "maxDateOfConclusion": "2023-10-21 12:00:00",
-            "estimatedTime": 2
-        }
-    ],
-    [
-        {
-            "id": 21,
-            "description": "Desenvolvimento de sistemas de pagamento recorrente.",
-            "maxDateOfConclusion": "2023-10-22 12:00:00",
-            "estimatedTime": 3
-        }
-    ],
-    [
-        {
-            "id": 30,
-            "description": "Desenvolvimento de soluções de pagamento multicanal (online, mobile, lojas físicas).",
-            "maxDateOfConclusion": "2023-10-24 12:00:00",
-            "estimatedTime": 4
-        }
-    ],
-    [
-        {
-            "id": 14,
-            "description": "Testes de segurança em sistemas de pagamento.",
-            "maxDateOfConclusion": "2023-10-25 12:00:00",
-            "estimatedTime": 3
-        }
-    ],
-    [
-        {
-            "id": 3,
-            "description": "Implementação de soluções de pagamento por código QR.",
-            "maxDateOfConclusion": "2023-10-27 12:00:00",
-            "estimatedTime": 6
-        }
-    ],
-    [
-        {
-            "id": 12,
-            "description": "Integração de sistemas de pagamento em lojas online.",
-            "maxDateOfConclusion": "2023-10-27 12:00:00",
-            "estimatedTime": 4
-        }
-    ],
-    [
-        {
-            "id": 24,
-            "description": "Desenvolvimento de APIs de pagamento.",
-            "maxDateOfConclusion": "2023-10-27 12:00:00",
-            "estimatedTime": 6
-        }
-    ],
-    [
-        {
-            "id": 17,
-            "description": "Desenvolvimento de gateways de pagamento.",
-            "maxDateOfConclusion": "2023-10-30 12:00:00",
-            "estimatedTime": 6
-        }
-    ],
-    [
-        {
-            "id": 22,
-            "description": "Integração de sistemas de pagamento com bancos e instituições financeiras.",
-            "maxDateOfConclusion": "2023-10-30 12:00:00",
-            "estimatedTime": 8
-        }
+      {
+        "id": 12,
+        "description": "Integração de sistemas de pagamento em lojas online.",
+        "maxDateOfConclusion": "2023-10-30 12:00:00",
+        "estimatedTime": 1
+      },
+      {
+        "id": 17,
+        "description": "Desenvolvimento de gateways de pagamento.",
+        "maxDateOfConclusion": "2023-10-30 12:00:00",
+        "estimatedTime": 2
+      },
+      {
+        "id": 22,
+        "description": "Integração de sistemas de pagamento com bancos e instituições financeiras.",
+        "maxDateOfConclusion": "2023-10-30 12:00:00",
+        "estimatedTime": 2
+      },
+      {
+        "id": 24,
+        "description": "Desenvolvimento de APIs de pagamento.",
+        "maxDateOfConclusion": "2023-10-30 12:00:00",
+        "estimatedTime": 3
+      }
     ]
-]
+  ]
