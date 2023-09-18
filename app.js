@@ -15,11 +15,45 @@ app.post('/processar-json', (req, res) => {
   res.json(resposta); // Enviar a resposta como JSON
 });
 
-// Função para processar os dados (exemplo)
+// Função para processar os dados
 function processarDados(entrada) {
-  // Implemente sua lógica de processamento aqui
-  // Por exemplo, ordenar o Array de entrada e retorná-lo
-  return entrada.sort((a, b) => a.ID - b.ID);
+  // Verificar se o array de entrada está vazio
+  if (!entrada || entrada.length === 0) {
+    return [{ message: 'Array de entrada vazio ou ausente.' }];
+  }
+
+  // Ordenar os jobs por data máxima de conclusão em ordem crescente
+  entrada.sort((a, b) => new Date(a.maxDateOfConclusion) - new Date(b.maxDateOfConclusion));
+
+  const conjuntosDeTrabalho = [];
+  let conjuntoDeTrabalho = [];
+  let tempoEstimadoTotal = 0;
+  let dataAtual = null;
+
+  for (const job of entrada) {
+    const tempoEstimadoHoras = job.estimatedTime;
+    const dataConclusao = new Date(job.maxDateOfConclusion);
+
+    if (
+      dataAtual &&
+      (tempoEstimadoTotal + tempoEstimadoHoras > 8 || dataConclusao > dataAtual)
+    ) {
+      conjuntosDeTrabalho.push(conjuntoDeTrabalho);
+      conjuntoDeTrabalho = [];
+      tempoEstimadoTotal = 0;
+    }
+
+    conjuntoDeTrabalho.push(job);
+    tempoEstimadoTotal += tempoEstimadoHoras;
+    dataAtual = dataConclusao;
+  }
+
+  // Adicionar o último conjunto de trabalho, se houver
+  if (conjuntoDeTrabalho.length > 0) {
+    conjuntosDeTrabalho.push(conjuntoDeTrabalho);
+  }
+
+  return conjuntosDeTrabalho;
 }
 
 app.listen(port, () => {
