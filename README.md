@@ -24,27 +24,31 @@ Certifique-se de ter as seguintes ferramentas instaladas em seu sistema:
 
 2. Navegue até o diretório do projeto:
 
-cd growth7-jobs-processor
+   ```shell
+   cd growth7-jobs-processor
 
 3. Instale as dependências do projeto:
 
-npm install
+   ```shell
+   npm install
 
-Executando a Aplicação
+### Executando a Aplicação
 
 Para iniciar a aplicação, utilize o seguinte comando:
 
-npm start
+   ```shell
+   npm start
 
 Isso iniciará o servidor na porta padrão 3000.
 
-Executando Testes Unitários
+## Executando Testes Unitários
 
 Para executar os testes unitários, utilize o seguinte comando:
 
-npm test
+   ```shell
+   npm test
 
-Contribuição
+## Contribuição
 
 Se você deseja contribuir para o projeto, siga estas etapas:
 
@@ -53,10 +57,10 @@ Se você deseja contribuir para o projeto, siga estas etapas:
 3. Faça as alterações desejadas e as comite.
 4. Envie uma pull request para o repositório original.
 
-Problemas e Sugestões
+## Problemas e Sugestões
 
 Se você encontrar algum problema ou tiver sugestões de melhorias, crie um problema neste repositório. Estamos felizes em ouvir seus feedbacks e aprimorar este projeto.
 
-Licença
+## Licença
 
 Este projeto está licenciado sob a Licença MIT - consulte o arquivo LICENSE para obter mais detalhes.
